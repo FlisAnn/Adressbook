@@ -50,6 +50,6 @@ document.addEventListener('DOMContentLoaded', () => { // before we can interact 
         // 2. Save them to our storage
         storage.setItem('contacts', JSON.stringify(contacts))
         renderContacts()
-        contactForm()
+        contactForm.reset()
     })
 })
