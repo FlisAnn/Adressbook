@@ -10,7 +10,7 @@ describe('user can create a contact', () => {
         cy.get('#twitter').type('@thomasochman')
         cy.get('#submit').click()
     })
-    it('displays a name of teh new contact', () => {
+    it('displays a name of the new contact', () => {
         cy.get('#contact-list').should('contain', 'Thomas')
     })
     it('displays the phone number of the new contact', () => {
