@@ -1,17 +1,19 @@
 {
-  "name": "adress_book_challange",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "flis_ann <ann.flismark@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "cypress": "^5.4.0"
-  },
-  "dependencies": {
-    "superstatic": "^7.0.1"
-  },
-  "scripts": {
-    "start": "superstatic src --port 3001",
-    "cy:open": "yarn start & cypress open"
-  }
+    "name": "adress_book_challange",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "flis_ann <ann.flismark@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "cypress": "^5.4.0"
+    },
+    "dependencies": {
+        "browser-sync": "^2.26.13",
+        "superstatic": "^7.0.1"
+    },
+    "scripts": {
+        "start": "superstatic src --port 3001",
+        "start:hot": "node server.js",
+        "cy:open": "yarn start & cypress open"
+    }
 }
