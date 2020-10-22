@@ -1,0 +1,64 @@
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: lightpink;
+            margin: 80px;
+            border: lightseagreen;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        input [type="text"] {
+            width: 100%;
+            padding: 12px 1px;
+            margin: 10px 0;
+            display: inline-block;
+            border: 5px solid gainsboro;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+        
+        input [type="email"] {
+            width: 100%;
+            padding: 12px 1px;
+            margin: 10px 0;
+            display: inline-block;
+            border: 5px solid gainsboro;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+        
+        input [type="textarea"] {
+            width: 100%;
+            padding: 12px 1px;
+            margin: 10px 0;
+            display: inline-block;
+            border: 5px solid gainsboro;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            margin-bottom: 10px;
+            background-color: teal;
+            border: solid;
+            color: white;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: thistle;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 0px;
+        }
+        
+        input[type="submit"] {
+            margin-bottom: 10px;
+            background-color: plum;
+            border: solid;
+            color: white;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: thistle;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 0px;
+        }
