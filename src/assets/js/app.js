@@ -28,10 +28,10 @@ const renderContacts = () => {
 document.addEventListener('DOMContentLoaded', () => {
     renderContacts()
     const contactForm = document.getElementById('new-contact-form')
-    const toggleFormVisiilityButton = document.getElementById('add-contact')
+    const toggleFormVisibilityButton = document.getElementById('add-contact')
     contactForm.style.display = 'none'
 
-    toggleFormVisiilityButton.addEventListener('click', () => {
+    toggleFormVisibilityButton.addEventListener('click', () => {
         if (contactForm.style.display === '') {
             contactForm.style.display = 'none'
         } else {
