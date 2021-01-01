@@ -1,8 +1,8 @@
         body {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            background-color: lightpink;
+            background-color: rgb(245, 218, 222);
             margin: 80px;
-            border: lightseagreen;
+            border: rgb(255, 255, 255);
             padding: 20px;
             text-align: center;
         }
@@ -39,7 +39,7 @@
         
         button {
             margin-bottom: 10px;
-            background-color: rgb(124, 203, 203);
+            background-color: rgb(247, 140, 224);
             border: solid;
             color: white;
             padding: 10px 10px;
@@ -52,7 +52,7 @@
         
         input[type="submit"] {
             margin-bottom: 10px;
-            background-color: rgb(240, 223, 240);
+            background-color: rgb(247, 140, 224);
             border: solid;
             color: white;
             padding: 10px 10px;
